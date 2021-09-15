@@ -1,3 +1,42 @@
 To clone a repositary:
-git clone https://github.com/devendrajeet/my-html-project.git
+$ git clone https://github.com/devendrajeet/my-html-project.git
+
+$ cd my-html-project
+
+created few HTML files
+
+To check the difference between remote project and local project
+git status
+
+$ git add git-commands.txt // To add indivisual file
+$ git add test2.html git-commands.txt  // To add multiple files add file file space separated
+$ git add . // To add all files
+
+// Below two configurations are required for first time only
+$ git config --global user.email "patel.devendrajeet@gmail.com"
+$ git config --global user.name "devendrajeet"
+
+// To verify email and username
+$ git config --global user.email
+$ git config --global user.name
+
+
+
+$ git commit -m "Created a new home page"
+
+to check the current branch, master is the main and default branch
+$ git branch
+
+
+// To check the difference between local and remote repositary
+git diff test2.html
+
+
+
+
+
+
+
+vi .git/config 
+
 

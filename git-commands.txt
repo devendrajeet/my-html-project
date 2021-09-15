@@ -1,0 +1,3 @@
+To clone a repositary:
+git clone https://github.com/devendrajeet/my-html-project.git
+

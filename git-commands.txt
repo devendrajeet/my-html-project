@@ -24,17 +24,27 @@ $ git config --global user.name
 
 $ git commit -m "Created a new home page"
 
+$ git push origin master
+
+-------------------------------------------------------------
+
+
 to check the current branch, master is the main and default branch
 $ git branch
 
+do some changes 
 
 // To check the difference between local and remote repositary
-git diff test2.html
+$ git diff test2.html
+
+// To check all diff
+$ git diff
 
 
+$ git pull origin master
 
-
-
+// To check all commits
+$ git log
 
 
 vi .git/config 

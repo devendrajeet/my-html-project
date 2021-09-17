@@ -1,0 +1,26 @@
+to see all files and folders in current directory
+$ ls
+
+to enter in folder or open a file
+$ cd
+
+to get back from a folder
+$ cd ..
+
+create a file
+$ touch abc.txt (file name)
+
+delete/remove a file
+$ rm file_name (abc.txt)
+
+to create a folder
+$ mkdir folder_name
+
+to delete a folder
+$ rm -rf abc (folder name)
+
+to clear terminal
+$ clear
+
+to check the current folder path
+$ pwd

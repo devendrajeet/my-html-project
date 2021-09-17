@@ -6,7 +6,7 @@ $ cd my-html-project
 created few HTML files
 
 To check the difference between remote project and local project
-git status
+$ git status
 
 $ git add git-commands.txt // To add indivisual file
 $ git add test2.html git-commands.txt  // To add multiple files add file file space separated

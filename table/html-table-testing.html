@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> Table Testing </title></head>
+
+    <section>
+    <div class="parent">
+        <br>
+        <div class="child"> <h1> Hello World </h1></div>
+        <br>
+        <span>
+            <a href="https://google.com"> Google </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://yahoo.com"> Yahoo! </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://bing.com"> Bing </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://msn.com"> msn </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+        </span>
+    </div>
+    <div class="parent2">
+        <br>
+        <div class="child2"> Image Insertion </div>
+        <p> <img src="https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg" alt="Colorful" style="width:30%"></p>
+        <p> <img src="https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg" alt="Flower" style="width:30%"> </p>
+    </div>
+    </section>
+    <style>
+        table, th, td {
+           border: 1px solid cornflowerblue
+        }s
+    </style>
+    <body>
+       <br>
+        <table style="width: 100%;"> 
+            <caption> <h2> Employee Data </h2> </caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Address</th>
+                    <th>Designation</th>
+                    <th colspan="2">Action</th>
+                </tr>
+            </thead>
+                
+                <tbody>
+                    <td>Liam</td>
+                    <td>3378523</td>
+                    <td>New York</td>
+                    <td>Sr. Exe</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tbody>
+
+                <tbody>
+                    <td>Noah</td>
+                    <td>3378524</td>
+                    <td>New Jersey</td>
+                    <td>Sr. Exe</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tbody>
+
+                <tbody>
+                    <td>James</td>
+                    <td>3378525</td>
+                    <td>washington D.C.</td>
+                    <td>jr. Exe</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tbody>
+
+                <tbody>
+                    <td>Thomas</td>
+                    <td>3378526</td>
+                    <td>Queens</td>
+                    <td>Jr. Exe</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tbody>
+        </table>
+    </body>
+    <style>
+        .parent {
+            border: 3px solid orange;
+            text-align: center;
+            outline: 3px solid cadetblue;
+            font-size: 20px;
+            display: 100%;
+        }
+        #child {
+            color: aqua;
+        }
+        p {
+            width: 45%;
+            border: 3px solid red;
+            padding: 10px;
+            text-align: center;
+            outline: 10px solid lightgreen;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        table
+        {
+            border-collapse: initial;
+        }
+        th, td
+        {
+            border: 2px solid darkolivegreen;
+            text-align: center;
+            background-color: lightgray; 
+        }
+        thead th {
+            background-color: darkseagreen;
+        }
+        td:hover {
+            background-color: green;
+        }
+        span:hover {
+            color: solid red;
+        }
+    </style>
+</html>

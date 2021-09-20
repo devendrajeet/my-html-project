@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container .box {
+    height: 20px;
+    width: 100px;
+    border: 1px solid #333;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box:hover{
+  box-shadow: 2px 2px 10px #666; /*left top blur pixel color*/
+}
+.box-1 {
+  background: red;
+  z-index: 4;
+}
+.box-2 {
+  background: blue;
+  z-index: 5;
+}
+.box-3 {
+  background: green;
+}
+.box-4 {
+  background: cyan;
+}
+.full-ctr {
+  width: 100px;
+  height: 200px;
+  border: 1px solid #333;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="full-ctr"></div>
+    
+    <div class="box box-4">Loading...</div>
+  </div>
+</body>
+</html>
+    

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/SAM_4582_1200x1200_1200KB_%285886168226%29.jpg" alt="garder" width="25%" height="25%">
+        <body>
+            <h1>Child Selector </h1>
+            
+            <p> This is a paragraph 1 outside Div </p>
+            <div>
+                <p>This is a paragraph 2 in div</p>
+                <p>This is a paragraph 3 in div</p>
+            </div>
+            <p>This is a paragraph 4 outside div</p>
+            <p>This is a paragraph 5 outside div</p>
+            <section> <p> This is a paragraph 6 in div</p></section>
+            <div>
+                <p>This is a paragraph 7 in div</p>
+                <p>This is a paragraph 8 in div</p>
+            </div>
+            <br><br><br>
+ 
+            
+         
+        </body>
+        <style>
+
+            body{
+                background-color: lightyellow;
+                border: 3px solid black;
+                padding: 10px;
+            }
+
+            div > p {
+                background-color: lightgreen;
+                width: 25%;
+                text-align: center;
+                border: 2px solid red;
+            }
+            section > p {
+                background-color: rgb(213, 250, 7);
+                border: 3px solid rgb(133, 43, 125);
+                width: 25%;
+                text-align: center;
+            }
+            p {
+                background-color: mediumpurple;
+                border: 3px solid navy;
+                width: 25%;
+                text-align: center;
+            }
+            img {
+                float: right;
+                opacity: 0.7;
+               
+                border: 2px solid blue;
+            }
+        </style>
+    </head>
+</html>
